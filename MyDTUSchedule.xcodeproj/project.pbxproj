@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD1579116A4DB8B0094ABD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579016A4DB8B0094ABD4 /* UIKit.framework */; };
+		3BD1579316A4DB8B0094ABD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579216A4DB8B0094ABD4 /* Foundation.framework */; };
+		3BD1579516A4DB8B0094ABD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */; };
+		3BD1579716A4DB8B0094ABD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579616A4DB8B0094ABD4 /* CoreData.framework */; };
+		3BD1579D16A4DB8B0094ABD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */; };
+		3BD1579F16A4DB8B0094ABD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1579E16A4DB8B0094ABD4 /* main.m */; };
+		3BD157A316A4DB8B0094ABD4 /* ScheduleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */; };
+		3BD157A616A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BD1578C16A4DB8B0094ABD4 /* MyDTUSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDTUSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD1579016A4DB8B0094ABD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BD1579216A4DB8B0094ABD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BD1579616A4DB8B0094ABD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3BD1579A16A4DB8B0094ABD4 /* MyDTUSchedule-Info.plist */ = {isa = PBXFileReference; path = "MyDTUSchedule-Info.plist"; sourceTree = "<group>"; };
+		3BD1579C16A4DB8B0094ABD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BD1579E16A4DB8B0094ABD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD157A016A4DB8B0094ABD4 /* MyDTUSchedule-Prefix.pch */ = {isa = PBXFileReference; path = "MyDTUSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		3BD157A116A4DB8B0094ABD4 /* ScheduleAppDelegate.h */ = {isa = PBXFileReference; path = ScheduleAppDelegate.h; sourceTree = "<group>"; };
+		3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleAppDelegate.m; sourceTree = "<group>"; };
+		3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDTUSchedule.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD1578916A4DB8B0094ABD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1579116A4DB8B0094ABD4 /* UIKit.framework in Frameworks */,
+				3BD1579316A4DB8B0094ABD4 /* Foundation.framework in Frameworks */,
+				3BD1579516A4DB8B0094ABD4 /* CoreGraphics.framework in Frameworks */,
+				3BD1579716A4DB8B0094ABD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD1578116A4DB8B0094ABD4 = {
+			isa = PBXGroup;
+			children = (
+				3BD1579816A4DB8B0094ABD4 /* MyDTUSchedule */,
+				3BD1578F16A4DB8B0094ABD4 /* Frameworks */,
+				3BD1578D16A4DB8B0094ABD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD1578D16A4DB8B0094ABD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1578C16A4DB8B0094ABD4 /* MyDTUSchedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD1578F16A4DB8B0094ABD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1579016A4DB8B0094ABD4 /* UIKit.framework */,
+				3BD1579216A4DB8B0094ABD4 /* Foundation.framework */,
+				3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */,
+				3BD1579616A4DB8B0094ABD4 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD1579816A4DB8B0094ABD4 /* MyDTUSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				3BD157A116A4DB8B0094ABD4 /* ScheduleAppDelegate.h */,
+				3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */,
+				3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */,
+				3BD1579916A4DB8B0094ABD4 /* Supporting Files */,
+			);
+			path = MyDTUSchedule;
+			sourceTree = "<group>";
+		};
+		3BD1579916A4DB8B0094ABD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1579A16A4DB8B0094ABD4 /* MyDTUSchedule-Info.plist */,
+				3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */,
+				3BD1579E16A4DB8B0094ABD4 /* main.m */,
+				3BD157A016A4DB8B0094ABD4 /* MyDTUSchedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD1578B16A4DB8B0094ABD4 /* MyDTUSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD157A916A4DB8B0094ABD4 /* Build configuration list for PBXNativeTarget "MyDTUSchedule" */;
+			buildPhases = (
+				3BD1578816A4DB8B0094ABD4 /* Sources */,
+				3BD1578916A4DB8B0094ABD4 /* Frameworks */,
+				3BD1578A16A4DB8B0094ABD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDTUSchedule;
+			productName = MyDTUSchedule;
+			productReference = 3BD1578C16A4DB8B0094ABD4 /* MyDTUSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD1578316A4DB8B0094ABD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3BD1578616A4DB8B0094ABD4 /* Build configuration list for PBXProject "MyDTUSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BD1578116A4DB8B0094ABD4;
+			productRefGroup = 3BD1578D16A4DB8B0094ABD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD1578B16A4DB8B0094ABD4 /* MyDTUSchedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD1578A16A4DB8B0094ABD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1579D16A4DB8B0094ABD4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD1578816A4DB8B0094ABD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1579F16A4DB8B0094ABD4 /* main.m in Sources */,
+				3BD157A316A4DB8B0094ABD4 /* ScheduleAppDelegate.m in Sources */,
+				3BD157A616A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD1579C16A4DB8B0094ABD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD157A716A4DB8B0094ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD157A816A4DB8B0094ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD157AA16A4DB8B0094ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDTUSchedule/MyDTUSchedule-Prefix.pch";
+				INFOPLIST_FILE = "MyDTUSchedule/MyDTUSchedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BD157AB16A4DB8B0094ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDTUSchedule/MyDTUSchedule-Prefix.pch";
+				INFOPLIST_FILE = "MyDTUSchedule/MyDTUSchedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD1578616A4DB8B0094ABD4 /* Build configuration list for PBXProject "MyDTUSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD157A716A4DB8B0094ABD4 /* Debug */,
+				3BD157A816A4DB8B0094ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD157A916A4DB8B0094ABD4 /* Build configuration list for PBXNativeTarget "MyDTUSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD157AA16A4DB8B0094ABD4 /* Debug */,
+				3BD157AB16A4DB8B0094ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */,
+			);
+			currentVersion = 3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */;
+			path = MyDTUSchedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BD1578316A4DB8B0094ABD4 /* Project object */;
+}
