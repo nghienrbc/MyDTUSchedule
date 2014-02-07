@@ -1,0 +1,34 @@
+2013-05-27 13:17:22 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 2 other session(s) using the database.
+2013-05-27 13:17:52 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 2 other session(s) using the database.
+2013-05-27 13:18:08 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 2 other session(s) using the database.
+2013-05-29 10:26:44 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2013-07-04 14:52:23 ERROR  : ERROR:  role "dspace" cannot be dropped because some objects depend on it
+DETAIL:  owner of database dspace
+94 objects in database dspace
+2013-07-04 14:52:34 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 19 other session(s) using the database.
+2013-07-04 14:52:54 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 7 other session(s) using the database.
+2013-07-04 14:52:59 ERROR  : ERROR:  role "dspace" cannot be dropped because some objects depend on it
+DETAIL:  owner of database dspace
+94 objects in database dspace
+2013-07-04 14:55:11 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 7 other session(s) using the database.
+2013-07-04 14:55:50 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 7 other session(s) using the database.
+2013-07-04 14:55:54 ERROR  : ERROR:  role "dspace" cannot be dropped because some objects depend on it
+DETAIL:  owner of database dspace
+94 objects in database dspace
+2013-07-04 14:56:38 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 7 other session(s) using the database.
+2013-07-04 14:56:47 ERROR  : ERROR:  role "dspace" cannot be dropped because some objects depend on it
+DETAIL:  owner of database dspace
+94 objects in database dspace
+2013-07-04 14:58:11 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2013-07-04 14:59:17 ERROR  : ERROR:  database "dspace" is being accessed by other users
+DETAIL:  There are 7 other session(s) using the database.
