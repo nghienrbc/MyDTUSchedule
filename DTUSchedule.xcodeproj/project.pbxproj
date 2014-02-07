@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5B13E916DB488200F824A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5B13E816DB488200F824A2 /* QuartzCore.framework */; };
+		3B5B13EB16DB4C9900F824A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5B13EA16DB4C9900F824A2 /* SystemConfiguration.framework */; };
+		3B5B13EF16DB50EB00F824A2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5B13EE16DB50EB00F824A2 /* CoreFoundation.framework */; };
+		3BC9FD8817324A5F004D600B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FD8717324A5E004D600B /* icon.png */; };
+		3BCADA2B16E8965E00C1AD07 /* saveeventidaaa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BCADA2A16E8965E00C1AD07 /* saveeventidaaa.txt */; };
+		3BCADAF4172A5CB300C3AB0A /* bluebackgroundipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCADAF3172A5CB300C3AB0A /* bluebackgroundipad.png */; };
+		3BCADAF6172A5CBE00C3AB0A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCADAF5172A5CBE00C3AB0A /* Default-Portrait~ipad.png */; };
+		3BCADAF8172A64A600C3AB0A /* bluebackgroundiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCADAF7172A64A600C3AB0A /* bluebackgroundiphone.png */; };
+		3BCC374C16F5499100C1156D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC374A16F5499100C1156D /* SettingViewController.m */; };
+		3BCC374D16F5499100C1156D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC374B16F5499100C1156D /* SettingViewController.xib */; };
+		3BCD071516E737DB00510470 /* previous-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCD071316E737DB00510470 /* previous-button.png */; };
+		3BCD071616E737DB00510470 /* next-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCD071416E737DB00510470 /* next-button.png */; };
+		3BCE3D3D16A6576B00768C9F /* logo_DTU.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE3D3C16A6576B00768C9F /* logo_DTU.png */; };
+		3BCE3D4116A6875800768C9F /* WeekScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE3D3F16A6875800768C9F /* WeekScheduleController.m */; };
+		3BCE3D4216A6875800768C9F /* WeekScheduleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE3D4016A6875800768C9F /* WeekScheduleController.xib */; };
+		3BCE3D4816A68AFB00768C9F /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE3D4716A68AFB00768C9F /* Schedule.m */; };
+		3BCEA42116F46D9C00407DC9 /* background_header_section.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEA42016F46D9C00407DC9 /* background_header_section.png */; };
+		3BCF7945170D4FF8007814CA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF7944170D4FF8007814CA /* EventKit.framework */; };
+		3BCFF301172B538A0027F9E0 /* bluebackgroundipad_lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCFF300172B538A0027F9E0 /* bluebackgroundipad_lan.png */; };
+		3BCFF303172B552C0027F9E0 /* bluebackgroundiphone_lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCFF302172B552C0027F9E0 /* bluebackgroundiphone_lan.png */; };
+		3BD03E3716E58E6D0038B5FE /* NewDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD03E3516E58E6D0038B5FE /* NewDayViewController.m */; };
+		3BD03E3816E58E6D0038B5FE /* NewDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD03E3616E58E6D0038B5FE /* NewDayViewController.xib */; };
+		3BD1579116A4DB8B0094ABD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579016A4DB8B0094ABD4 /* UIKit.framework */; };
+		3BD1579316A4DB8B0094ABD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579216A4DB8B0094ABD4 /* Foundation.framework */; };
+		3BD1579516A4DB8B0094ABD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */; };
+		3BD1579716A4DB8B0094ABD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1579616A4DB8B0094ABD4 /* CoreData.framework */; };
+		3BD1579D16A4DB8B0094ABD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */; };
+		3BD1579F16A4DB8B0094ABD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1579E16A4DB8B0094ABD4 /* main.m */; };
+		3BD157A316A4DB8B0094ABD4 /* ScheduleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */; };
+		3BD157A616A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */; };
+		3BD157B216A4DCA60094ABD4 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157B016A4DCA60094ABD4 /* ScheduleViewController.m */; };
+		3BD157B316A4DCA60094ABD4 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD157B116A4DCA60094ABD4 /* ScheduleViewController.xib */; };
+		3BD157B716A4ED240094ABD4 /* DayScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157B516A4ED240094ABD4 /* DayScheduleController.m */; };
+		3BD157B816A4ED240094ABD4 /* DayScheduleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD157B616A4ED240094ABD4 /* DayScheduleController.xib */; };
+		3BD157BC16A4EDC10094ABD4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157BA16A4EDC10094ABD4 /* AboutViewController.m */; };
+		3BD157BD16A4EDC10094ABD4 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD157BB16A4EDC10094ABD4 /* AboutViewController.xib */; };
+		3BD157D116A4F2C10094ABD4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157D016A4F2C10094ABD4 /* MBProgressHUD.m */; };
+		3BD157E416A5036F0094ABD4 /* scheduleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD157E316A5036F0094ABD4 /* scheduleParser.m */; };
+		3BD4379116E188DF00E3CC63 /* saveeventid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4379016E188DF00E3CC63 /* saveeventid.txt */; };
+		3BD4961A16AE7EF400171359 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4961916AE7EF400171359 /* MainWindow.xib */; };
+		3BDFB55616B0E3B500AE0459 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDFB55416B0E3B400AE0459 /* LoginViewController.m */; };
+		3BDFB55716B0E3B500AE0459 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BDFB55516B0E3B400AE0459 /* LoginViewController.xib */; };
+		43888DA216DA463F00413023 /* InstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43888DA016DA463F00413023 /* InstructionViewController.m */; };
+		43888DA316DA463F00413023 /* InstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43888DA116DA463F00413023 /* InstructionViewController.xib */; };
+		43888DA516DA602C00413023 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 43888DA416DA602C00413023 /* about.html */; };
+		43972D1B16D91D7400B43D35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43972D1A16D91D7400B43D35 /* Default-568h@2x.png */; };
+		43A0C1C4172D889300EE8E51 /* updatebuttoniphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1C3172D889300EE8E51 /* updatebuttoniphone.png */; };
+		43A0C1C8172D8A1800EE8E51 /* weekschedulebuttoniphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1C5172D8A1800EE8E51 /* weekschedulebuttoniphone.png */; };
+		43A0C1C9172D8A1800EE8E51 /* dayschedulebuttoniphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1C6172D8A1800EE8E51 /* dayschedulebuttoniphone.png */; };
+		43A0C1CA172D8A1800EE8E51 /* settingbuttoniphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1C7172D8A1800EE8E51 /* settingbuttoniphone.png */; };
+		43A0C1CC172D93ED00EE8E51 /* settingbuttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1CB172D93ED00EE8E51 /* settingbuttonbackground.png */; };
+		43A0C1CE172DA0DE00EE8E51 /* background_header_section1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A0C1CD172DA0DE00EE8E51 /* background_header_section1.png */; };
+		43A15965172F7961001F67C0 /* SettingViewControlleripad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A15964172F7961001F67C0 /* SettingViewControlleripad.xib */; };
+		43A1720E172FDF5400CFE0A6 /* DetailInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1720C172FDF5400CFE0A6 /* DetailInstructionViewController.m */; };
+		43A1720F172FDF5400CFE0A6 /* DetailInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A1720D172FDF5400CFE0A6 /* DetailInstructionViewController.xib */; };
+		43A17211172FEA6000CFE0A6 /* imagehelp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A17210172FEA6000CFE0A6 /* imagehelp1.png */; };
+		43A1F244172CE71700F52E9A /* loginbackgroundiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F243172CE71700F52E9A /* loginbackgroundiphone.png */; };
+		43A1F248172D184D00F52E9A /* mainbackgroundiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F247172D184D00F52E9A /* mainbackgroundiphone.png */; };
+		43A1F24A172D1C9700F52E9A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F249172D1C9700F52E9A /* logo.png */; };
+		43A1F24C172D206500F52E9A /* loginbackgroundiphone_lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F24B172D206500F52E9A /* loginbackgroundiphone_lan.png */; };
+		43A1F24E172D28AB00F52E9A /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F24D172D28AB00F52E9A /* loginbutton.png */; };
+		43AADFCC172E07FD002AE338 /* settingbuttonipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFC8172E07FD002AE338 /* settingbuttonipad.png */; };
+		43AADFCD172E07FD002AE338 /* weekschedulebuttonipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFC9172E07FD002AE338 /* weekschedulebuttonipad.png */; };
+		43AADFCE172E07FD002AE338 /* dayschedulebuttonipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFCA172E07FD002AE338 /* dayschedulebuttonipad.png */; };
+		43AADFCF172E07FD002AE338 /* updatebuttonipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFCB172E07FD002AE338 /* updatebuttonipad.png */; };
+		43AADFD1172E1DA6002AE338 /* loginbackgroundipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFD0172E1DA6002AE338 /* loginbackgroundipad.png */; };
+		43AADFD3172E27BB002AE338 /* loginbackgroundipad_lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AADFD2172E27BB002AE338 /* loginbackgroundipad_lan.png */; };
+		43E81F3C172EDEAE0083DDD4 /* ScheduleViewControlleripad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E81F3B172EDEAE0083DDD4 /* ScheduleViewControlleripad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B5B13E816DB488200F824A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3B5B13EA16DB4C9900F824A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3B5B13EC16DB4D9F00F824A2 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3B5B13ED16DB4DA000F824A2 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3B5B13EE16DB50EB00F824A2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3BC9FD8717324A5E004D600B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3BCADA2A16E8965E00C1AD07 /* saveeventidaaa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saveeventidaaa.txt; sourceTree = "<group>"; };
+		3BCADAF3172A5CB300C3AB0A /* bluebackgroundipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebackgroundipad.png; sourceTree = "<group>"; };
+		3BCADAF5172A5CBE00C3AB0A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3BCADAF7172A64A600C3AB0A /* bluebackgroundiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebackgroundiphone.png; sourceTree = "<group>"; };
+		3BCC374916F5499100C1156D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ../SettingViewController.h; sourceTree = "<group>"; };
+		3BCC374A16F5499100C1156D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ../SettingViewController.m; sourceTree = "<group>"; };
+		3BCC374B16F5499100C1156D /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = ../SettingViewController.xib; sourceTree = "<group>"; };
+		3BCD071316E737DB00510470 /* previous-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous-button.png"; sourceTree = "<group>"; };
+		3BCD071416E737DB00510470 /* next-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-button.png"; sourceTree = "<group>"; };
+		3BCE3D3C16A6576B00768C9F /* logo_DTU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_DTU.png; sourceTree = "<group>"; };
+		3BCE3D3E16A6875700768C9F /* WeekScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekScheduleController.h; path = ../WeekScheduleController.h; sourceTree = "<group>"; };
+		3BCE3D3F16A6875800768C9F /* WeekScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekScheduleController.m; path = ../WeekScheduleController.m; sourceTree = "<group>"; };
+		3BCE3D4016A6875800768C9F /* WeekScheduleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeekScheduleController.xib; path = ../WeekScheduleController.xib; sourceTree = "<group>"; };
+		3BCE3D4616A68AFB00768C9F /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		3BCE3D4716A68AFB00768C9F /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		3BCEA42016F46D9C00407DC9 /* background_header_section.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_header_section.png; sourceTree = "<group>"; };
+		3BCF7944170D4FF8007814CA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3BCFF300172B538A0027F9E0 /* bluebackgroundipad_lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebackgroundipad_lan.png; sourceTree = "<group>"; };
+		3BCFF302172B552C0027F9E0 /* bluebackgroundiphone_lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebackgroundiphone_lan.png; sourceTree = "<group>"; };
+		3BD03E3416E58E6D0038B5FE /* NewDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewDayViewController.h; path = ../NewDayViewController.h; sourceTree = "<group>"; };
+		3BD03E3516E58E6D0038B5FE /* NewDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewDayViewController.m; path = ../NewDayViewController.m; sourceTree = "<group>"; };
+		3BD03E3616E58E6D0038B5FE /* NewDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewDayViewController.xib; path = ../NewDayViewController.xib; sourceTree = "<group>"; };
+		3BD1578C16A4DB8B0094ABD4 /* DTUSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTUSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD1579016A4DB8B0094ABD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BD1579216A4DB8B0094ABD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BD1579616A4DB8B0094ABD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3BD1579A16A4DB8B0094ABD4 /* DTUSchedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTUSchedule-Info.plist"; sourceTree = "<group>"; };
+		3BD1579C16A4DB8B0094ABD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BD1579E16A4DB8B0094ABD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD157A016A4DB8B0094ABD4 /* DTUSchedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTUSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		3BD157A116A4DB8B0094ABD4 /* ScheduleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScheduleAppDelegate.h; path = MyDTUSchedule/ScheduleAppDelegate.h; sourceTree = "<group>"; };
+		3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ScheduleAppDelegate.m; path = MyDTUSchedule/ScheduleAppDelegate.m; sourceTree = "<group>"; };
+		3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDTUSchedule.xcdatamodel; sourceTree = "<group>"; };
+		3BD157AF16A4DCA60094ABD4 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		3BD157B016A4DCA60094ABD4 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		3BD157B116A4DCA60094ABD4 /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		3BD157B416A4ED240094ABD4 /* DayScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DayScheduleController.h; path = ../DayScheduleController.h; sourceTree = "<group>"; };
+		3BD157B516A4ED240094ABD4 /* DayScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayScheduleController.m; path = ../DayScheduleController.m; sourceTree = "<group>"; };
+		3BD157B616A4ED240094ABD4 /* DayScheduleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayScheduleController.xib; path = ../DayScheduleController.xib; sourceTree = "<group>"; };
+		3BD157B916A4EDC10094ABD4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		3BD157BA16A4EDC10094ABD4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		3BD157BB16A4EDC10094ABD4 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		3BD157CF16A4F2C10094ABD4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3BD157D016A4F2C10094ABD4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3BD157E216A5036E0094ABD4 /* scheduleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleParser.h; sourceTree = "<group>"; };
+		3BD157E316A5036F0094ABD4 /* scheduleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleParser.m; sourceTree = "<group>"; };
+		3BD4379016E188DF00E3CC63 /* saveeventid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = saveeventid.txt; sourceTree = "<group>"; };
+		3BD4961916AE7EF400171359 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3BDFB55316B0E3B400AE0459 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		3BDFB55416B0E3B400AE0459 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		3BDFB55516B0E3B400AE0459 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
+		3BDFEE3B16DC69CC00F64AF7 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../NSString+MD5.h"; sourceTree = "<group>"; };
+		3BDFEE3C16DC69CC00F64AF7 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "../NSString+MD5.m"; sourceTree = "<group>"; };
+		3BDFEE3D16DC69CC00F64AF7 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5.h"; path = "../NSData+MD5.h"; sourceTree = "<group>"; };
+		3BDFEE3E16DC69CD00F64AF7 /* NSData+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+MD5.m"; path = "../NSData+MD5.m"; sourceTree = "<group>"; };
+		43888D9F16DA463F00413023 /* InstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstructionViewController.h; path = ../InstructionViewController.h; sourceTree = "<group>"; };
+		43888DA016DA463F00413023 /* InstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstructionViewController.m; path = ../InstructionViewController.m; sourceTree = "<group>"; };
+		43888DA116DA463F00413023 /* InstructionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InstructionViewController.xib; path = ../InstructionViewController.xib; sourceTree = "<group>"; };
+		43888DA416DA602C00413023 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = ../about.html; sourceTree = "<group>"; };
+		43972D1A16D91D7400B43D35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43A0C1C3172D889300EE8E51 /* updatebuttoniphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updatebuttoniphone.png; sourceTree = "<group>"; };
+		43A0C1C5172D8A1800EE8E51 /* weekschedulebuttoniphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weekschedulebuttoniphone.png; sourceTree = "<group>"; };
+		43A0C1C6172D8A1800EE8E51 /* dayschedulebuttoniphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayschedulebuttoniphone.png; sourceTree = "<group>"; };
+		43A0C1C7172D8A1800EE8E51 /* settingbuttoniphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingbuttoniphone.png; sourceTree = "<group>"; };
+		43A0C1CB172D93ED00EE8E51 /* settingbuttonbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingbuttonbackground.png; sourceTree = "<group>"; };
+		43A0C1CD172DA0DE00EE8E51 /* background_header_section1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_header_section1.png; sourceTree = "<group>"; };
+		43A15964172F7961001F67C0 /* SettingViewControlleripad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewControlleripad.xib; path = ../SettingViewControlleripad.xib; sourceTree = "<group>"; };
+		43A1720B172FDF5300CFE0A6 /* DetailInstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailInstructionViewController.h; path = ../DetailInstructionViewController.h; sourceTree = "<group>"; };
+		43A1720C172FDF5400CFE0A6 /* DetailInstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailInstructionViewController.m; path = ../DetailInstructionViewController.m; sourceTree = "<group>"; };
+		43A1720D172FDF5400CFE0A6 /* DetailInstructionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailInstructionViewController.xib; path = ../DetailInstructionViewController.xib; sourceTree = "<group>"; };
+		43A17210172FEA6000CFE0A6 /* imagehelp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagehelp1.png; sourceTree = "<group>"; };
+		43A1F243172CE71700F52E9A /* loginbackgroundiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbackgroundiphone.png; sourceTree = "<group>"; };
+		43A1F247172D184D00F52E9A /* mainbackgroundiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbackgroundiphone.png; sourceTree = "<group>"; };
+		43A1F249172D1C9700F52E9A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		43A1F24B172D206500F52E9A /* loginbackgroundiphone_lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbackgroundiphone_lan.png; sourceTree = "<group>"; };
+		43A1F24D172D28AB00F52E9A /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+		43AADFC8172E07FD002AE338 /* settingbuttonipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingbuttonipad.png; sourceTree = "<group>"; };
+		43AADFC9172E07FD002AE338 /* weekschedulebuttonipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weekschedulebuttonipad.png; sourceTree = "<group>"; };
+		43AADFCA172E07FD002AE338 /* dayschedulebuttonipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayschedulebuttonipad.png; sourceTree = "<group>"; };
+		43AADFCB172E07FD002AE338 /* updatebuttonipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updatebuttonipad.png; sourceTree = "<group>"; };
+		43AADFD0172E1DA6002AE338 /* loginbackgroundipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbackgroundipad.png; sourceTree = "<group>"; };
+		43AADFD2172E27BB002AE338 /* loginbackgroundipad_lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbackgroundipad_lan.png; sourceTree = "<group>"; };
+		43E81F3B172EDEAE0083DDD4 /* ScheduleViewControlleripad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleViewControlleripad.xib; path = ../ScheduleViewControlleripad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD1578916A4DB8B0094ABD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5B13EF16DB50EB00F824A2 /* CoreFoundation.framework in Frameworks */,
+				3B5B13EB16DB4C9900F824A2 /* SystemConfiguration.framework in Frameworks */,
+				3B5B13E916DB488200F824A2 /* QuartzCore.framework in Frameworks */,
+				3BCF7945170D4FF8007814CA /* EventKit.framework in Frameworks */,
+				3BD1579116A4DB8B0094ABD4 /* UIKit.framework in Frameworks */,
+				3BD1579316A4DB8B0094ABD4 /* Foundation.framework in Frameworks */,
+				3BD1579516A4DB8B0094ABD4 /* CoreGraphics.framework in Frameworks */,
+				3BD1579716A4DB8B0094ABD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD1578116A4DB8B0094ABD4 = {
+			isa = PBXGroup;
+			children = (
+				3BCADAF5172A5CBE00C3AB0A /* Default-Portrait~ipad.png */,
+				43972D1A16D91D7400B43D35 /* Default-568h@2x.png */,
+				3BCADAF3172A5CB300C3AB0A /* bluebackgroundipad.png */,
+				3BCADAF7172A64A600C3AB0A /* bluebackgroundiphone.png */,
+				3BCFF300172B538A0027F9E0 /* bluebackgroundipad_lan.png */,
+				3BCFF302172B552C0027F9E0 /* bluebackgroundiphone_lan.png */,
+				43A1F243172CE71700F52E9A /* loginbackgroundiphone.png */,
+				43A1F247172D184D00F52E9A /* mainbackgroundiphone.png */,
+				43A1F249172D1C9700F52E9A /* logo.png */,
+				43A1F24B172D206500F52E9A /* loginbackgroundiphone_lan.png */,
+				43A1F24D172D28AB00F52E9A /* loginbutton.png */,
+				43A0C1C3172D889300EE8E51 /* updatebuttoniphone.png */,
+				43A0C1C5172D8A1800EE8E51 /* weekschedulebuttoniphone.png */,
+				43A0C1C6172D8A1800EE8E51 /* dayschedulebuttoniphone.png */,
+				43A0C1C7172D8A1800EE8E51 /* settingbuttoniphone.png */,
+				43A0C1CB172D93ED00EE8E51 /* settingbuttonbackground.png */,
+				43A0C1CD172DA0DE00EE8E51 /* background_header_section1.png */,
+				43AADFC8172E07FD002AE338 /* settingbuttonipad.png */,
+				43AADFC9172E07FD002AE338 /* weekschedulebuttonipad.png */,
+				43AADFCA172E07FD002AE338 /* dayschedulebuttonipad.png */,
+				43AADFCB172E07FD002AE338 /* updatebuttonipad.png */,
+				43AADFD0172E1DA6002AE338 /* loginbackgroundipad.png */,
+				43AADFD2172E27BB002AE338 /* loginbackgroundipad_lan.png */,
+				43A17210172FEA6000CFE0A6 /* imagehelp1.png */,
+				3BC9FD8717324A5E004D600B /* icon.png */,
+				3BD5991A16B626F100D24AA2 /* Images */,
+				3B5B13EC16DB4D9F00F824A2 /* Reachability.h */,
+				3B5B13ED16DB4DA000F824A2 /* Reachability.m */,
+				3BD4961916AE7EF400171359 /* MainWindow.xib */,
+				3BD157A116A4DB8B0094ABD4 /* ScheduleAppDelegate.h */,
+				3BD157A216A4DB8B0094ABD4 /* ScheduleAppDelegate.m */,
+				3BD1579816A4DB8B0094ABD4 /* MyDTUSchedule */,
+				3BD1578F16A4DB8B0094ABD4 /* Frameworks */,
+				3BD1578D16A4DB8B0094ABD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD1578D16A4DB8B0094ABD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1578C16A4DB8B0094ABD4 /* DTUSchedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD1578F16A4DB8B0094ABD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5B13EE16DB50EB00F824A2 /* CoreFoundation.framework */,
+				3B5B13EA16DB4C9900F824A2 /* SystemConfiguration.framework */,
+				3B5B13E816DB488200F824A2 /* QuartzCore.framework */,
+				3BCF7944170D4FF8007814CA /* EventKit.framework */,
+				3BD1579016A4DB8B0094ABD4 /* UIKit.framework */,
+				3BD1579216A4DB8B0094ABD4 /* Foundation.framework */,
+				3BD1579416A4DB8B0094ABD4 /* CoreGraphics.framework */,
+				3BD1579616A4DB8B0094ABD4 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD1579816A4DB8B0094ABD4 /* MyDTUSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				3BCE3D3C16A6576B00768C9F /* logo_DTU.png */,
+				3BCADA2A16E8965E00C1AD07 /* saveeventidaaa.txt */,
+				3BD4379016E188DF00E3CC63 /* saveeventid.txt */,
+				3BD157D216A4F3F90094ABD4 /* Models */,
+				3BD157CE16A4F2910094ABD4 /* UIProgress */,
+				3BD157BE16A4F05F0094ABD4 /* ParsingData */,
+				3BD157B916A4EDC10094ABD4 /* AboutViewController.h */,
+				3BD157BA16A4EDC10094ABD4 /* AboutViewController.m */,
+				3BD157BB16A4EDC10094ABD4 /* AboutViewController.xib */,
+				3BDFEE3B16DC69CC00F64AF7 /* NSString+MD5.h */,
+				3BDFEE3C16DC69CC00F64AF7 /* NSString+MD5.m */,
+				3BDFEE3D16DC69CC00F64AF7 /* NSData+MD5.h */,
+				3BDFEE3E16DC69CD00F64AF7 /* NSData+MD5.m */,
+				3BDFB55316B0E3B400AE0459 /* LoginViewController.h */,
+				3BDFB55416B0E3B400AE0459 /* LoginViewController.m */,
+				3BDFB55516B0E3B400AE0459 /* LoginViewController.xib */,
+				43888DA416DA602C00413023 /* about.html */,
+				3BD03E3416E58E6D0038B5FE /* NewDayViewController.h */,
+				3BD03E3516E58E6D0038B5FE /* NewDayViewController.m */,
+				3BD03E3616E58E6D0038B5FE /* NewDayViewController.xib */,
+				43888D9F16DA463F00413023 /* InstructionViewController.h */,
+				43888DA016DA463F00413023 /* InstructionViewController.m */,
+				43888DA116DA463F00413023 /* InstructionViewController.xib */,
+				43A1720B172FDF5300CFE0A6 /* DetailInstructionViewController.h */,
+				43A1720C172FDF5400CFE0A6 /* DetailInstructionViewController.m */,
+				43A1720D172FDF5400CFE0A6 /* DetailInstructionViewController.xib */,
+				3BCC374916F5499100C1156D /* SettingViewController.h */,
+				43A15964172F7961001F67C0 /* SettingViewControlleripad.xib */,
+				3BCC374A16F5499100C1156D /* SettingViewController.m */,
+				3BCC374B16F5499100C1156D /* SettingViewController.xib */,
+				3BD157B416A4ED240094ABD4 /* DayScheduleController.h */,
+				3BD157B516A4ED240094ABD4 /* DayScheduleController.m */,
+				3BD157B616A4ED240094ABD4 /* DayScheduleController.xib */,
+				3BD157AF16A4DCA60094ABD4 /* ScheduleViewController.h */,
+				43E81F3B172EDEAE0083DDD4 /* ScheduleViewControlleripad.xib */,
+				3BD157B016A4DCA60094ABD4 /* ScheduleViewController.m */,
+				3BD157B116A4DCA60094ABD4 /* ScheduleViewController.xib */,
+				3BCE3D3E16A6875700768C9F /* WeekScheduleController.h */,
+				3BCE3D3F16A6875800768C9F /* WeekScheduleController.m */,
+				3BCE3D4016A6875800768C9F /* WeekScheduleController.xib */,
+				3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */,
+				3BD1579916A4DB8B0094ABD4 /* Supporting Files */,
+			);
+			path = MyDTUSchedule;
+			sourceTree = "<group>";
+		};
+		3BD1579916A4DB8B0094ABD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1579A16A4DB8B0094ABD4 /* DTUSchedule-Info.plist */,
+				3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */,
+				3BD1579E16A4DB8B0094ABD4 /* main.m */,
+				3BD157A016A4DB8B0094ABD4 /* DTUSchedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD157BE16A4F05F0094ABD4 /* ParsingData */ = {
+			isa = PBXGroup;
+			children = (
+				3BD157E216A5036E0094ABD4 /* scheduleParser.h */,
+				3BD157E316A5036F0094ABD4 /* scheduleParser.m */,
+			);
+			name = ParsingData;
+			sourceTree = "<group>";
+		};
+		3BD157CE16A4F2910094ABD4 /* UIProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3BD157CF16A4F2C10094ABD4 /* MBProgressHUD.h */,
+				3BD157D016A4F2C10094ABD4 /* MBProgressHUD.m */,
+			);
+			name = UIProgress;
+			sourceTree = "<group>";
+		};
+		3BD157D216A4F3F90094ABD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BCE3D4616A68AFB00768C9F /* Schedule.h */,
+				3BCE3D4716A68AFB00768C9F /* Schedule.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3BD5991A16B626F100D24AA2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3BCEA42016F46D9C00407DC9 /* background_header_section.png */,
+				3BCD071316E737DB00510470 /* previous-button.png */,
+				3BCD071416E737DB00510470 /* next-button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD1578B16A4DB8B0094ABD4 /* DTUSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD157A916A4DB8B0094ABD4 /* Build configuration list for PBXNativeTarget "DTUSchedule" */;
+			buildPhases = (
+				3BD1578816A4DB8B0094ABD4 /* Sources */,
+				3BD1578916A4DB8B0094ABD4 /* Frameworks */,
+				3BD1578A16A4DB8B0094ABD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTUSchedule;
+			productName = MyDTUSchedule;
+			productReference = 3BD1578C16A4DB8B0094ABD4 /* DTUSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD1578316A4DB8B0094ABD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 3BD1578616A4DB8B0094ABD4 /* Build configuration list for PBXProject "DTUSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BD1578116A4DB8B0094ABD4;
+			productRefGroup = 3BD1578D16A4DB8B0094ABD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD1578B16A4DB8B0094ABD4 /* DTUSchedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD1578A16A4DB8B0094ABD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1579D16A4DB8B0094ABD4 /* InfoPlist.strings in Resources */,
+				3BD157B316A4DCA60094ABD4 /* ScheduleViewController.xib in Resources */,
+				3BD157B816A4ED240094ABD4 /* DayScheduleController.xib in Resources */,
+				3BD157BD16A4EDC10094ABD4 /* AboutViewController.xib in Resources */,
+				3BCE3D3D16A6576B00768C9F /* logo_DTU.png in Resources */,
+				3BCE3D4216A6875800768C9F /* WeekScheduleController.xib in Resources */,
+				3BD4961A16AE7EF400171359 /* MainWindow.xib in Resources */,
+				3BDFB55716B0E3B500AE0459 /* LoginViewController.xib in Resources */,
+				3BCD071516E737DB00510470 /* previous-button.png in Resources */,
+				3BCD071616E737DB00510470 /* next-button.png in Resources */,
+				3BCEA42116F46D9C00407DC9 /* background_header_section.png in Resources */,
+				3BCC374D16F5499100C1156D /* SettingViewController.xib in Resources */,
+				43972D1B16D91D7400B43D35 /* Default-568h@2x.png in Resources */,
+				43888DA316DA463F00413023 /* InstructionViewController.xib in Resources */,
+				43888DA516DA602C00413023 /* about.html in Resources */,
+				3BD4379116E188DF00E3CC63 /* saveeventid.txt in Resources */,
+				3BD03E3816E58E6D0038B5FE /* NewDayViewController.xib in Resources */,
+				3BCADA2B16E8965E00C1AD07 /* saveeventidaaa.txt in Resources */,
+				3BCADAF4172A5CB300C3AB0A /* bluebackgroundipad.png in Resources */,
+				3BCADAF6172A5CBE00C3AB0A /* Default-Portrait~ipad.png in Resources */,
+				3BCADAF8172A64A600C3AB0A /* bluebackgroundiphone.png in Resources */,
+				3BCFF301172B538A0027F9E0 /* bluebackgroundipad_lan.png in Resources */,
+				3BCFF303172B552C0027F9E0 /* bluebackgroundiphone_lan.png in Resources */,
+				43A1F244172CE71700F52E9A /* loginbackgroundiphone.png in Resources */,
+				43A1F248172D184D00F52E9A /* mainbackgroundiphone.png in Resources */,
+				43A1F24A172D1C9700F52E9A /* logo.png in Resources */,
+				43A1F24C172D206500F52E9A /* loginbackgroundiphone_lan.png in Resources */,
+				43A1F24E172D28AB00F52E9A /* loginbutton.png in Resources */,
+				43A0C1C4172D889300EE8E51 /* updatebuttoniphone.png in Resources */,
+				43A0C1C8172D8A1800EE8E51 /* weekschedulebuttoniphone.png in Resources */,
+				43A0C1C9172D8A1800EE8E51 /* dayschedulebuttoniphone.png in Resources */,
+				43A0C1CA172D8A1800EE8E51 /* settingbuttoniphone.png in Resources */,
+				43A0C1CC172D93ED00EE8E51 /* settingbuttonbackground.png in Resources */,
+				43A0C1CE172DA0DE00EE8E51 /* background_header_section1.png in Resources */,
+				43AADFCC172E07FD002AE338 /* settingbuttonipad.png in Resources */,
+				43AADFCD172E07FD002AE338 /* weekschedulebuttonipad.png in Resources */,
+				43AADFCE172E07FD002AE338 /* dayschedulebuttonipad.png in Resources */,
+				43AADFCF172E07FD002AE338 /* updatebuttonipad.png in Resources */,
+				43AADFD1172E1DA6002AE338 /* loginbackgroundipad.png in Resources */,
+				43AADFD3172E27BB002AE338 /* loginbackgroundipad_lan.png in Resources */,
+				43E81F3C172EDEAE0083DDD4 /* ScheduleViewControlleripad.xib in Resources */,
+				43A15965172F7961001F67C0 /* SettingViewControlleripad.xib in Resources */,
+				43A1720F172FDF5400CFE0A6 /* DetailInstructionViewController.xib in Resources */,
+				43A17211172FEA6000CFE0A6 /* imagehelp1.png in Resources */,
+				3BC9FD8817324A5F004D600B /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD1578816A4DB8B0094ABD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1579F16A4DB8B0094ABD4 /* main.m in Sources */,
+				3BD157A316A4DB8B0094ABD4 /* ScheduleAppDelegate.m in Sources */,
+				3BD157A616A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld in Sources */,
+				3BD157B216A4DCA60094ABD4 /* ScheduleViewController.m in Sources */,
+				3BD157B716A4ED240094ABD4 /* DayScheduleController.m in Sources */,
+				3BD157BC16A4EDC10094ABD4 /* AboutViewController.m in Sources */,
+				3BD157D116A4F2C10094ABD4 /* MBProgressHUD.m in Sources */,
+				3BD157E416A5036F0094ABD4 /* scheduleParser.m in Sources */,
+				3BCE3D4116A6875800768C9F /* WeekScheduleController.m in Sources */,
+				3BCE3D4816A68AFB00768C9F /* Schedule.m in Sources */,
+				3BDFB55616B0E3B500AE0459 /* LoginViewController.m in Sources */,
+				3BCC374C16F5499100C1156D /* SettingViewController.m in Sources */,
+				43888DA216DA463F00413023 /* InstructionViewController.m in Sources */,
+				3BD03E3716E58E6D0038B5FE /* NewDayViewController.m in Sources */,
+				43A1720E172FDF5400CFE0A6 /* DetailInstructionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BD1579B16A4DB8B0094ABD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD1579C16A4DB8B0094ABD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD157A716A4DB8B0094ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD157A816A4DB8B0094ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD157AA16A4DB8B0094ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDTUSchedule/DTUSchedule-Prefix.pch";
+				INFOPLIST_FILE = "MyDTUSchedule/DTUSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = DTUSchedule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BD157AB16A4DB8B0094ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDTUSchedule/DTUSchedule-Prefix.pch";
+				INFOPLIST_FILE = "MyDTUSchedule/DTUSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = DTUSchedule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD1578616A4DB8B0094ABD4 /* Build configuration list for PBXProject "DTUSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD157A716A4DB8B0094ABD4 /* Debug */,
+				3BD157A816A4DB8B0094ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD157A916A4DB8B0094ABD4 /* Build configuration list for PBXNativeTarget "DTUSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD157AA16A4DB8B0094ABD4 /* Debug */,
+				3BD157AB16A4DB8B0094ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BD157A416A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */,
+			);
+			currentVersion = 3BD157A516A4DB8B0094ABD4 /* MyDTUSchedule.xcdatamodel */;
+			path = MyDTUSchedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BD1578316A4DB8B0094ABD4 /* Project object */;
+}

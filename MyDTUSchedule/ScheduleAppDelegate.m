@@ -7,21 +7,79 @@
 //
 
 #import "ScheduleAppDelegate.h"
-
+#import "ScheduleViewController.h"
+//#import "DayScheduleController.h"
+#import "LoginViewController.h"
+  
 @implementation ScheduleAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+@synthesize viewController;  
+//@synthesize dayviewController;  
+@synthesize loginViewController;
+
+
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize myNavigationController;
+
+
+NSString *kRemindMeNotificationDataKey = @"kRemindMeNotificationDataKey";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    Class cls = NSClassFromString(@"UILocalNotification");
+	if (cls) {
+		UILocalNotification *notification = [launchOptions objectForKey:
+                                             UIApplicationLaunchOptionsLocalNotificationKey];
+		if (notification) {
+			NSString *reminderText = [notification.userInfo 
+									  objectForKey:kRemindMeNotificationDataKey];
+			[viewController showReminder:reminderText];
+		}
+	}
+	
+	application.applicationIconBadgeNumber = 0;
+
+    
+   // [self copyDatabaseIfNeeded];
+    //window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+    loginViewController = [[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil]; // nhay ngay toi LoginSCController
+    loginViewController.managedObjectContext = self.managedObjectContext;
+   
+    
+    /*viewController = [[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil];
+    viewController.managedObjectContext = self.managedObjectContext;  */
+    
+    //if(myNavigationController == nil)
+    //    myNavigationController = [[UINavigationController alloc]initWithRootViewController:viewController];
+    //self.window.rootViewController=viewController;
+    self.window.rootViewController = loginViewController;
+    //[myNavigationController setNavigationBarHidden:YES];
+    //[myNavigationController.view.superview addSubview:loginViewController.view];
+    //[window.rootViewController.view addSubview:loginViewController.view];
+    
+    
+    [window makeKeyAndVisible];
     return YES;
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+	
+	application.applicationIconBadgeNumber = 0;
+}
+
+
+- (void)application:(UIApplication *)application 
+didReceiveLocalNotification:(UILocalNotification *)notification { 
+	
+	application.applicationIconBadgeNumber = 0;
+	NSString *reminderText = [notification.userInfo
+							  objectForKey:kRemindMeNotificationDataKey];
+	[viewController showReminder:reminderText];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -39,13 +97,7 @@
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
 }
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    /*
-     Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-     */
-}
+ 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
@@ -77,6 +129,30 @@
             abort();
         } 
     }
+}
+#pragma Copy database if exits
+- (void) copyDatabaseIfNeeded
+{
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	NSError *error;
+	NSString *dbPath = [self getDBPath];
+	//		[fileManager removeItemAtPath:dbPath error:&error];
+	BOOL success = [fileManager fileExistsAtPath:dbPath];
+	if(!success)
+	{
+		[fileManager removeItemAtPath:dbPath error:&error];
+		NSString *defaultDBPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"MyDTUSchedule.sqlite"];
+		success = [fileManager copyItemAtPath:defaultDBPath toPath:dbPath error:&error];
+		
+		if(!success)
+			NSAssert1(0,@"Failed to create writable database file with message '%@'.",[error localizedDescription]);
+	}
+}
+- (NSString*) getDBPath
+{
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDir = [paths objectAtIndex:0];
+	return [documentsDir stringByAppendingPathComponent:@"MyDTUSchedule.sqlite"];
 }
 
 #pragma mark - Core Data stack
@@ -172,5 +248,12 @@
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
-
+- (void)deviceOrientation:(NSNotification *)notification {
+    UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+    //    UIDeviceOrientation orientation =[ [UIApplication sharedApplication] statusBarOrientation];
+    
+    [self.viewController shouldAutorotateToInterfaceOrientation:orientation];
+  
+    // After we get the orientation perform operation depending on that.
+}
 @end

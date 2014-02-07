@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12A269" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Schedule" representedClassName="Schedule" syncable="YES">
+        <attribute name="class_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="course_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="course_Number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility_Id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility_RootName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility_TypeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from_Date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructor_IdNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructor_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thru_Date" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Schedule" positionX="-11367" positionY="-3177" width="207" height="223"/>
+    </elements>
 </model>
